@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🚀 Entering TiffyAI Share Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #enteringGif {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <img
+    id="enteringGif"
+    src="https://tiffyai.github.io/Activating-Portal/Appssss.gif"
+    alt="Entering Portal"
+    onload="startRedirectTimer()"
+  />
+
+  <script>
+    function startRedirectTimer() {
+      setTimeout(() => {
+        // Standard redirect that works in any browser
+        window.location.href = 'https://tiffyai.github.io/Boot';
+      }, 3000); // Wait 3 seconds after image load
+    }
+  </script>
+
+</body>
+</html>
